@@ -30,7 +30,18 @@ const drinkMenu = [
 //         'Milk was a bad choice':25
 //       }
 //     },
-    
+    {
+        name: 'Bahama Mama',
+        image: 'https://augustine-bar.de/wp-content/uploads/Muertos-Y-Furiosos.png',
+        description: 'A drink all the mamas can enjoy!',
+        recipe: {
+            'Orange Juice': 1 * oz_in_g,
+            'Pineapple Juice': 1 * oz_in_g,
+            'Gold Rum': .5 * oz_in_g,
+            'Coconut Flavored Rum': .5 * oz_in_g, //this is mL 1mL ~= 1g
+            'Grenadine': .5 * oz_in_g
+        }
+     },
     {
         name: 'Barbados Rum Punch',
         image: 'https://augustine-bar.de/wp-content/uploads/Muertos-Y-Furiosos.png',
